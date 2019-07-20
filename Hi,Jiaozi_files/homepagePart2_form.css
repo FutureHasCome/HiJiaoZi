@@ -1,0 +1,87 @@
+
+@CHARSET "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub
+, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+body {
+    font-family: "方正兰亭黑";
+    background-color:transparent;
+    background: #F3F3F3;
+}
+.content,.wrap{position:relative}
+.content {
+    width:994px;
+    margin:0 auto;
+    text-align: center;
+}
+.content:after{display:table;line-height:0;content:"";clear:both}
+.content-title {
+    padding:40px 0 15px;
+    text-align:center;
+}
+.content-title h2{
+	margin-bottom:12px;
+	font-size:32px;
+	color: #7ad4d3;
+	line-height:30px;
+	font-family:方正兰亭中黑_GBK;
+	
+}
+.content-title p{
+	margin:0 auto 6px;
+	width:414px;
+	height:6px;
+	border-bottom:1px solid #999;
+	font-size:0
+}
+.content-title p span{
+	padding:0 12px;
+	font-size:12px;
+	line-height:12px;
+	background-color:#edefed;
+	overflow:hidden
+}
+.content-btnmore {
+    background-color:#7ad4d3;border:1px solid #959595;border-radius: 7px;margin:34px auto 60px;width:314px
+}
+.content-btnmore a{
+    line-height:42px;font-size:20px;text-decoration: none;color:#ffffff;
+}
+.boxm{
+	width:994px;
+	*zoom:1
+}
+.boxm:after{display:table;line-height:0;content:"";clear:both}
+.boxm .box-inner{
+	margin-left:-26px;
+	*zoom:1
+}
+.boxm .box-inner:after{display:table;line-height:0;content:"";clear:both}
+.boxm .box-inner .col-1{
+	width:314px
+}
+.boxm .box-inner .col-2{
+	width:654px
+}
+.boxm .box-inner .col-3{
+	width:994px
+}
+.boxm .box-inner [class^=col-]{position:relative;float:left;margin:30px 0 0 26px;background-color:#fff;overflow:hidden}
+.boxm .box-inner [class^=col-] .tit{position:absolute;top:119px;left:0;z-index:2;width:100%;height:76px;color:#fff;text-align:center}
+.boxm .box-inner [class^=col-] .tit h5{font-size:30px;line-height:48px;text-shadow:0 2px 2px #000}
+.boxm .box-inner [class^=col-] .tit p{font-size:18px;line-height:28px;text-shadow:0 2px 2px #000}
+.boxm .box-inner [class^=col-] a{display:block;height:100%;overflow:hidden}
+.boxm .box-inner [class^=col-] a .imgbox{width:100%;overflow:hidden;background-color:#d4d4d4}
+.boxm .box-inner [class^=col-] a .imgbox .bg{width:314px;height:234px;background:url("http://pic.8pig.com/img/pc/new/img-bg.png") 50% no-repeat}
+.boxm .box-inner [class^=col-] a .imgbox img{-webkit-transition:all 1.2s ease;transition:all 1.2s ease}
+.boxm .box-inner [class^=col-] a:hover{color:inherit;box-shadow:0 0 5px rgba(0,0,0,.2)}
+.boxm .box-inner [class^=col-] a:hover .imgbox img{-webkit-transform:scale(1.1);transform:scale(1.1)}
+.boxm .box-inner.daren [class^=col-]{height:324px;box-shadow:0 1px 2px hsla(0,0%,60%,.5)}
+.boxm .box-inner.daren [class^=col-]:hover{box-shadow:0 1px 5px hsla(0,0%,60%,.7)}
+.boxm .box-inner.daren .info{margin:8px 0 4px;*zoom:1}
